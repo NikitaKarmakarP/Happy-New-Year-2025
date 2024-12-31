@@ -21,7 +21,6 @@ Welcome to the **Happy-New-Year-2025** project! 🎆 This repository is a celebr
 | `index.html`    | The main HTML file, where the celebration structure lives. 🎉 |
 | `style.css`     | The CSS file that gives the page its glowing, colorful, and animated style. 💫 |
 | `script.js`     | JavaScript bringing fireworks, crackers, and animations to life! 🎆 |
-| `crackers.gif`  | Decorative image used in the crackers animation. 🎇 |
 | `new.gif`       | A GIF that enhances the celebratory theme with its playful animations! 🎉 |
 | `LICENSE`       | License information for the project. 📜 |
 
