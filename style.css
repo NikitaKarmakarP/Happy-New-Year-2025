@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('crackers.gif') no-repeat center center/cover;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Happy New Year Message */
+.message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 4rem;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #f39c12, 0 0 30px #e74c3c;
+  animation: glow 3s infinite;
+}
+
+.message span {
+  animation: bounce 2s infinite;
+}
+
+.message .space {
+  width: 15px;
+}
+
+/* Motivational Quote */
+.motivational-quote {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #f9c74f;
+  text-shadow: 0 0 10px #f39c12, 0 0 20px #f9844a, 0 0 30px #ff6f61;
+  animation: fadeIn 3s infinite alternate;
+  max-width: 80%;
+}
+
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px #fff, 0 0 20px #f39c12, 0 0 30px #e74c3c; }
+  50% { text-shadow: 0 0 20px #e67e22, 0 0 30px #d35400; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* Fireworks and Crackers */
+.fireworks {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.fireworks .firework {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, #ff0, #f00);
+  border-radius: 50%;
+  animation: firework 1.5s infinite ease-out;
+}
+
+@keyframes firework {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
+.crackers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.crackers .cracker {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  background: linear-gradient(to bottom, #ffeb3b, transparent);
+  animation: burst 2s infinite ease-in-out;
+}
+
+@keyframes burst {
+  0%, 100% { transform: scaleY(1); opacity: 1; }
+  50% { transform: scaleY(0.5); opacity: 0.5; }
+}
