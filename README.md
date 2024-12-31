@@ -35,12 +35,22 @@ Welcome to the **Happy-New-Year-2025** project! 🎆 This repository is a celebr
 2. **Open index.html in your favorite browser and watch the magic unfold!** ✨
 3. **Enjoy the animated New Year celebration!** 🥳🎇
 
+---
+
 ## 📝 License:
 This project is licensed under the MIT License. Open-source for everyone to enjoy! 🌱
 
+---
+
 ## 🎆 Preview:
+![image](https://github.com/user-attachments/assets/81ff32a4-db83-4e2b-881b-5ff8f96f547d)
+
+---
+
 ## 💬 Motivational Message:
 🚀 **"This year belongs to those who believe in the beauty of their dreams. 💖 Let’s shine... May the coming year bring you new opportunities, adventures, and lots of laughter!"** ✨
+
+---
 
 ## 🤝 Contributing:
 Want to make this celebration even better? Feel free to:
@@ -49,9 +59,13 @@ Want to make this celebration even better? Feel free to:
 - Submit pull requests 🔧
 - Suggest new features 📝
 
+---
+
 ## ✨ About the Owner:
 This project is created and maintained by **Nikita Karmakar**. 💖
 If you love the project, don't forget to ⭐️ and share it with your friends! 🌍
+
+---
 
 **Wishing everyone a Happy New Year 2025! 🎆**
 **Let’s make it the best year yet! ✨**
